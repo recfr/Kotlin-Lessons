@@ -12,4 +12,9 @@ fun main() {
     val tcIdentityNum : Long = 12332562726
     val convertedInt = tcIdentityNum.toInt()
     println("convertedInt : " + convertedInt)
+
+    val convertedValue: Long = tcIdentityNum + schoolNumber
+    val byte: String = "3"
+    val intValue = Integer.parseInt(byte)
+
 }
